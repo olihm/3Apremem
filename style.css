@@ -54,11 +54,6 @@ body {
 .botoes{
     display: block;
 }
-@media screen and (min-width: 768px) {
-    .botoes {
-        display:flex;
-    }
-}
 
 .botao first-child {
     border-radius: 40px 0 0 0;
@@ -72,4 +67,8 @@ body {
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
+}
+
+@media screen and (min-width: 768px) { .botoes { display: flex;
+}
 }
