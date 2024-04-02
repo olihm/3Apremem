@@ -55,10 +55,13 @@ body {
     display: block;
 }
 
-.botao first-child {
-    border-radius: 40px 0 0 0;
+@media screen and (min-width: 768px) {
+    .botoes
+     { display: flex;
 }
-
+.botao first-child {
+    border-radius: 40px 40px 0 0;
+}
 .botao last-child{
     border-radius: 0 40px 0 0;
 }
@@ -73,6 +76,7 @@ body {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
+
 
 .aba-conteudo.ativo{
     display:block;   
@@ -90,7 +94,4 @@ body {
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) { .botoes { display: flex;
 }
