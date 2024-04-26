@@ -2,10 +2,10 @@
 
 :root {
 --cor-de-fundo:hsl(240, 100%, 1%);
---azul-marinho:#030514;
+--azul-marinho:#0a1240;
 --roxo:#a99ae3;
---botao-ativo #050923;
---botao-inativo: #080e31;
+--botao-ativo:#080e31;
+--botao-inativo:#050923;
 --texto-fundo:#a99ae3;
 }
 
