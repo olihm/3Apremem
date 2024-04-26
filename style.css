@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap">;
 
 :root {
 --cor-de-fundo:#00002e;
@@ -12,7 +12,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Chakra Petch";
+    font-family: "Jersey-10-regular";
 }
 
 .conteudo-principal {
@@ -37,7 +37,7 @@ body {
 }
 
 .botao{
-    font-family: "Crakra Petch", sans-serif;
+    font-family: "Jersey-10", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
